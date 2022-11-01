@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.size {
+    display: flex;
+    max-width: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(216, 216, 216);
+    font-size:xx-small;
+    color: rgb(168, 168, 168);
+  filter: blur(1px);
+}
+.flex-body {
+    max-width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+
+}
+.sign-in {
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom: 20px;
+    width: 290px;
+    border: 1px solid lightgrey;
+    position:relative;
+    border-radius: 2px;
+
+}
+
+.flex-text{
+    display: flex;
+    
+}
+
+footer hr{
+    height: 2px;
+    background-color: lightgray;
+    color:lightgray;
+    border: none;
+}
+.foot-flex{
+    color: blue;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    font-size: smaller;
+}
+
+.nav {
+    color:blue;
+    text-decoration: none;
+}
+/* 
+How do I manage to put make the flexbox smaller? */
+
+.foot-box{
+    display: center;
+    width: 350;
+} 
+
+footer p{
+    text-align: center;
+    margin-bottom: 110px
+    ;
+}
