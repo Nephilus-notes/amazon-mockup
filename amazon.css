@@ -1,12 +1,15 @@
 @font-face {
-    font-family: amazonember_rg;
-    src: url(/amazonember_rg.ttf);
-}
+    font-family: 'amazon_emberregular';
+    src: url('amazonember_rg-webfont.woff2') format('woff2'),
+         url('amazonember_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
 * {
     box-sizing: border-box;
-    font-family: amazonember_rg
+    font-family: 'amazon_emberregular';
 }
 
 
