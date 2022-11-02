@@ -1,6 +1,14 @@
+@font-face {
+    font-family: amazonember_rg;
+    src: url(/amazonember_rg.ttf);
+}
+
+
 * {
     box-sizing: border-box;
+    font-family: amazonember_rg
 }
+
 
 a {
     color: rgb(0, 80, 255);
@@ -8,7 +16,7 @@ a {
 }
 
 input {
-    width: 258px;
+    width: 287px;
     vertical-align: middle;
     padding: 4px;
     margin-bottom: 5px;
@@ -62,6 +70,7 @@ input {
     height: 40px;
     font-size: small;
     text-align: bottom;
+    padding-top: 20px;
 }
 
 .pass {
@@ -103,7 +112,7 @@ input {
     color: rgb(190, 190, 190);
     text-align: center;
     width: 115px;
-    font-size:medium;
+    font-size: medium;
 }
 
 #new:before,
